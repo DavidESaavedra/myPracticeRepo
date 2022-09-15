@@ -4,7 +4,7 @@ public class ApplicationMain {
 		String[] shopList = new String[] {
 				"Apples",
 				"Bananas",
-				"Corn",
+				"Cucumber",
 				"Dog Food",
 				"Cereal", 
 				"Bread", 
@@ -12,9 +12,11 @@ public class ApplicationMain {
 				"Milk"
 		};
 		
-		for (String item: shopList) {
-			System.out.println(item);
-		}	
+		System.out.println("My Shopping List");
+        System.out.println();
+        for (String item: shopList) {
+        	System.out.println(item);
+        }	
        }
  
 }
